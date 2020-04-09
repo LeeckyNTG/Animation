@@ -31,5 +31,11 @@
         android:layout_height="wrap_content"
         android:text="SCALE_ANIMATION"
         android:onClick="click"/>
+    <Button
+        android:id="@+id/btn_blend_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BLEND_ANIMATION"
+        android:onClick="click"/>
 
 </LinearLayout>
