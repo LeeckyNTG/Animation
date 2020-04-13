@@ -38,4 +38,11 @@
         android:text="BLEND_ANIMATION"
         android:onClick="click"/>
 
+    <Button
+        android:id="@+id/btn_attribute_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="属性动画"
+        android:onClick="click"/>
+
 </LinearLayout>

@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_blend_animation:
                 startActivity(new Intent(this, BlendActivity.class));
                 break;
+            case R.id.btn_attribute_animation:
+                startActivity(new Intent(this, AttributeAnimationActivity.class));
+                break;
         }
     }
 }

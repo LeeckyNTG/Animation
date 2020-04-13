@@ -53,8 +53,6 @@ public class BlendActivity extends AppCompatActivity {
                 animationSet.addAnimation(alphaAnimationFrom);
                 animationSet.addAnimation(animation);
                 image.startAnimation(animationSet);
-
-
             }
             break;
         }
