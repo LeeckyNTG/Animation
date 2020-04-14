@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.AlphaAnimation;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 
@@ -32,7 +31,7 @@ public class TranslateAnimationActivity extends AppCompatActivity {
 
     public void click(View view) {
         switch (view.getId()) {
-            case R.id.btn_start: {
+            case R.id.btn_value_animator: {
                 //起始x轴，最终x轴，起始y轴，最终y轴
                 TranslateAnimation animation = new TranslateAnimation(0, 80, 0, 80);
                 image.startAnimation(animation);
@@ -40,7 +39,7 @@ public class TranslateAnimationActivity extends AppCompatActivity {
                 animation.setDuration(2000);
             }
             break;
-            case R.id.btn_stop: {
+            case R.id.btn_object_animator: {
                 TranslateAnimation animation = new TranslateAnimation(80, 0, 80, 0);
                 image.startAnimation(animation);
                 animation.setFillAfter(true);   //动画结束后保持状态

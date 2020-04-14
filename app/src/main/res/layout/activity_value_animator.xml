@@ -14,13 +14,33 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="50dp"
-        android:src="@mipmap/image" />
+        android:src="@mipmap/image"/>
 
     <Button
-        android:id="@+id/btn_value_animator"
+        android:id="@+id/btn_of_int_start"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="执行动画"
+        android:text="of_int 执行动画"
         android:onClick="click"/>
+
+    <Button
+        android:id="@+id/btn_of_float"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="of_float 停止动画"
+        android:onClick="click"/>
+
+    <Button
+        android:id="@+id/btn_of_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="of_object 动画"
+        android:onClick="click"/>
+
+    <com.clover.animation.ViewObjectAnimator
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 
 </LinearLayout>

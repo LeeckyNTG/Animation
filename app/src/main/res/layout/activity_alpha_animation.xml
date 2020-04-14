@@ -17,7 +17,7 @@
         android:src="@mipmap/image" />
 
     <Button
-        android:id="@+id/btn_start"
+        android:id="@+id/btn_value_animator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="执行动画"
@@ -25,7 +25,7 @@
         />
 
     <Button
-        android:id="@+id/btn_stop"
+        android:id="@+id/btn_object_animator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="停止动画"

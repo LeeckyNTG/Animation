@@ -35,7 +35,7 @@ public class BlendActivity extends AppCompatActivity {
 
     public void click(View view) {
         switch (view.getId()) {
-            case R.id.btn_start: {
+            case R.id.btn_value_animator: {
 
                 AnimationSet animationSet = new AnimationSet(true);////共用动画补间
                 animationSet.setDuration(1000);
