@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ValueAnimatorActivity extends AppCompatActivity {
 
     private ImageView image;
-    private ViewObjectAnimator view;
+    private ViewValueAnimator view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

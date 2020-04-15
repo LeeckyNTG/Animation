@@ -28,7 +28,7 @@ public class AttributeAnimationActivity extends AppCompatActivity {
             }
             break;
             case R.id.btn_object_animator: {
-                startActivity(new Intent(AttributeAnimationActivity.this, ValueAnimatorActivity.class));
+                startActivity(new Intent(AttributeAnimationActivity.this, ObjectAnimatorActivity.class));
             }
             break;
         }
